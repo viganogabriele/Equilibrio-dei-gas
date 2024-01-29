@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Versioning;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace _30._2___Equilibrio_Gas
 {
-    internal class Gas : Particella
+    internal class Gas
     {
         public List <Particella> particelle = new List<Particella>();
         public Gas(int nParticelle)
