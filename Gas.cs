@@ -21,11 +21,11 @@ namespace _30._2___Equilibrio_Gas
                 particelle.Add(new Particella());
             }
         }
-        public void SimulaEvoluzione()
+        public void SimulaEvoluzione(Random random)
         {
             foreach (Particella p in particelle)
             {
-                p.Evoluzione();
+                p.Evoluzione(random);
             }
         }
         public void Risultati(ref int contA, ref int contB)
