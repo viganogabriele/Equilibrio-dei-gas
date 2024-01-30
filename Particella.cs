@@ -8,7 +8,6 @@ namespace _30._2___Equilibrio_Gas
 {
     internal class Particella
     {
-        
         public char settore = 'A';
         public void Evoluzione(Random random)
         {

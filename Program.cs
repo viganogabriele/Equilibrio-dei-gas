@@ -19,7 +19,7 @@ namespace _30._2___Equilibrio_Gas
             int nParticelle = 100;
             int contA = 100;
             int contB = 0;
-            string percorsoFile = "C:\\Users\\gabri\\OneDrive\\Desktop\\Gas.csv.txt";
+            string percorsoFile = "C:\\Users\\gabri\\OneDrive\\Desktop\\Gas.txt";
             Gas g = new Gas(nParticelle);
 
             // Pulizia file
